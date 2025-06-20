@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #191919;
+    font-family: "Permanent Marker", cursive;
+    font-family: "Questrial", sans-serif;
+    transition: background-color 0.3s, color 0.3s; 
+}
+h1{
+    font-family: "Permanent Marker", cursive;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    margin: 35px 0;
+}
+/* ////////////// mode button */
+
+.head button{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+#theme-toggle{
+    color: #a435ed;
+    font-size: 30px;   
+}
+#theme-toggle:hover{
+    filter: drop-shadow(4px 4px 9px rgba(97, 97, 97, 97));
+}
+
+body.dark-mode {
+    background-color: #fff3cd;
+    color: #0a0a0a;
+}
+body.dark-mode h1 , th {
+    color: #191919;
+}
+body.dark-mode h2{
+    background: linear-gradient(to right , rgb(33, 147, 12) , rgb(105, 171, 57) , rgb(193, 213, 40) , rgb(248, 248, 52));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+body.dark-mode .line{
+    border: none;
+    border-top: #000 dashed 2px;
+    margin: 30px 50px;
+}
+body.dark-mode h3{
+    color: #191919;
+}
+body.dark-mode .bookMark1 {
+    width: 100%;
+    font-family: "Questrial", sans-serif;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #191919;
+    padding: 5px;
+}
+
+body.dark-mode  .bookMark2{
+    width: 100%;
+    font-family: "Questrial", sans-serif;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #191919;
+    padding: 5px;
+}
+
+body.dark-mode .bookMark1:focus{
+     border: none !important ;
+    box-shadow: 0 0 5px 2px rgb(247, 185, 115) !important;
+    outline: none !important;
+}
+body.dark-mode .bookMark2:focus{
+     border: none !important ;
+    box-shadow: 0 0 5px 2px rgb(247, 185, 115) !important;
+    outline: none !important;
+}
+body.dark-mode #submitBtn{
+    background-color: #d1512d;
+}
+body.dark-mode #submitBtn:hover{
+    background-color:#bb4120; 
+}
+body.dark-mode #theme-toggle{
+    color: #d55a38;
+}
+body.dark-mode td{
+    color: #191919;
+}
+body.dark-mode th{
+    color: #191919;
+}
+/* ////////////////////// */
+
+.line{
+    border: none;
+    border-top: #b862f1 dashed 2px;
+    margin: 30px 50px;
+}
+h2{
+    font-family: "Questrial", sans-serif;
+    background: linear-gradient(to right , #000 , #232323 , #a9a9a9 , #fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px 0;
+}
+main{
+    margin: 30px 50px;
+}
+h3{
+    font-family: "Questrial", sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+h3 i{
+    padding: 6px;
+}
+#submitBtn{
+    margin-top: 22px;
+    padding: 10px 40px;
+    border-radius: 50px;
+    background-color: #b862f1;
+    border: none;
+    color: #fff;
+    font-family: "Permanent Marker", cursive;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+#submitBtn:hover{
+    background-color: #a435ed;
+    letter-spacing: 2px;
+    
+}
+.bookMark1 , .bookMark2 {
+    width: 100%;
+    font-family: "Questrial", sans-serif;
+    background-color: #0a0a0a;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+}
+input:focus {
+    border: none !important ;
+    box-shadow: 0 0 5px 2px #a435ed !important;
+    outline: none !important;
+}
+
+.outputs table {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: "Questrial", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+th{
+    color: #fff;
+}
+td #Visit{
+    margin-top: 22px;
+    padding: 12px 25px;
+    border-radius: 50px;
+    background-color: #b3ef8b;
+    border: none;
+    color: #fff;
+    font-family: "Questrial", sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+td #Visit:hover{
+    background-color: #87dc4e;
+}
+td #Delete{
+    margin-top: 5px;
+    padding: 7px 20px;
+    border-radius: 50px;
+    background-color: #f36464;
+    border: none;
+    color: #fff;
+    font-family: "Questrial", sans-serif;
+    cursor: pointer;
+}
+td #Delete:hover{
+    background-color: #eb4a4a;
+}
+td i{
+    font-size: 16px;
+    padding: 5px;
+}
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.is-invalid {
+  border: 2px solid rgb(251, 17, 17) !important;
+  box-shadow: 0 0 5px rgb(251, 17, 17) !important;
+}
+
+
+
+
+

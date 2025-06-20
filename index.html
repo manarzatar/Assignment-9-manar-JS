@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/istockphoto-1369355289-612x612.jpg"/>
+        <link rel="stylesheet"  href="fontawesome-free-6.7.2-web/css/all.min.css"/>
+        <link rel="stylesheet" href="css/css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="css/style.css"/>
+      <title>Bookmark</title>
+
+    </head>
+    <body>
+
+     <main>
+      <div class="head">
+        <h1 id="element"></h1>
+        <button id="theme-toggle"><i class="fa-solid fa-toggle-off"></i></button>
+      </div>
+
+         <hr class="line">
+      <div>
+        <h2><i class="fa-solid fa-bookmark "></i> Bookmark your favorite sites <i class="fa-solid fa-bookmark "></i></h2>
+      </div> 
+
+        <form  action="">
+          <div id="error"></div>
+          <div class="input1">
+            <h3><i class="fa-solid fa-book-bookmark"></i> site name :</h3>
+              <input    type="text" class="bookMark1" id="nameInput" placeholder="Bookmark Name"/>
+          </div>
+
+          <div class="input2 mt-3">
+            <h3><i class="fa-solid fa-link"></i> site URL :</h3>
+              <input    type="url" class="bookMark2"  id="urlInput" placeholder="Website URL"/>
+          </div>
+
+          <div>
+            <button  onclick="return validateForm()" type="button" id="submitBtn">submit</button>
+          </div>
+
+          <hr class="line">
+
+          <div  class="outputs">
+            <table>
+              <tr>
+                <th>Index</th>
+                <th>Website Name</th>
+                <th>Visit</th>
+                <th>Delete</th>
+              </tr>
+              <tbody id="tbody">
+                
+              </tbody>
+            </table>
+          </div>
+          </form>
+      </main>
+
+
+
+        <script  src="js/js/bootstrap.bundle.js"></script>
+        <script src="js/main.js"></script>
+           <script src="script.js"></script>
+      
+        
+
+         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+         <script>
+  var typed = new Typed('#element', {
+  strings: [
+    'Book',
+    'Bookmar',
+    'Bookmark', 
+    'Bookmarker',
+    'Bookmark',
+    'Bookmar',
+    'Book'
+  ],
+  loop: true,
+  typeSpeed: 50,
+  backSpeed: 30,
+  backDelay: 1500,
+});
+  </script>
+  
+  
+        
+    </body>
+</html>
